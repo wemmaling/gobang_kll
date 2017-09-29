@@ -1,0 +1,27 @@
+{
+  "name": "gobang_kll",
+  "version": "0.0.0",
+  "author": "KLL",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
