@@ -1,17 +1,19 @@
 import React from 'react'
+import { Grid } from './Grid'
+import Piece from './Piece'
 import '../styles/Foo.styl'
 
 export default class Foo extends React.Component {
   render() {
     return (
-      <div>
-        <div className="title">HELLO</div>
+      <div className="background-wrap">
         <svg
-          width="500"
-          height="500"
+          width="640"
+          height="640"
           style={{ background: 'url(./bg.jpg)' }}
         >
-          hi
+          <Grid />
+          <Piece />
         </svg>
       </div>
     )
